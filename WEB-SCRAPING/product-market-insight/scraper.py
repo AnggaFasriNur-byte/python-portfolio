@@ -54,7 +54,7 @@ if page.status_code == 200:
 
     # Save to CSV
     with open(
-        "C:/PORTOFOLIO/python-portofolio/WEB-SCRAPING/product-market-insight/data/products.csv",
+        "C:/PORTOFOLIO/python-portfolio/WEB-SCRAPING/product-market-insight/data/products.csv",
         "w",
         newline="",
         encoding="utf-8"
