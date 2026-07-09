@@ -59,7 +59,7 @@ for job in job_list.find_all("li"):
 
     title = job.find("h2").get_text(" ", strip=True)
 
-    # hapus kata "New" di depan judul
+    # delete "New"
     if title.startswith("New "):
         title = title.replace("New ", "", 1)
 
