@@ -1,0 +1,24 @@
+# E-Commerce Books Scraper (Multi-Page Pipeline)
+
+## Overview
+An automated web scraping pipeline built to extract 1,000 product records across a 50-page e-commerce catalog. It handles multi-page pagination, parses nested HTML/CSS attributes, converts categorical text ratings into numerical values using Python dictionaries, and exports clean, analytics-ready data into an Excel spreadsheet.
+
+## Technologies Used
+* Python
+* Requests
+* BeautifulSoup4
+* Pandas
+* openpyxl
+* Jupyter Notebook
+
+## Project Structure
+ecommerce-books-scraper/
+├── data/
+│   └── book_scrape.xlsx
+├── scraper.ipynb
+└── README.md
+
+## Key Features
+* **Pagination Automation:** Loops programmatically across 50 target pages.
+* **Robust Error Handling:** Implements `try-except` blocks to prevent script crashes on missing attributes.
+* **Data Transformation:** Maps text-based star ratings ('One', 'Two', 'Three') directly to integers (1-5).
