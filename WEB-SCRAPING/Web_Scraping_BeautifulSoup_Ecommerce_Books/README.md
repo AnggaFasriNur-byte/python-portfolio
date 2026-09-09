@@ -12,7 +12,7 @@ An automated web scraping pipeline built to extract 1,000 product records across
 * Jupyter Notebook
 
 ## Project Structure
-ecommerce-books-scraper/
+Web_Scraping_BeautifulSoup_Ecommerce_Books/
 ├── data/
 │   └── book_scrape.xlsx
 ├── scraper.ipynb
