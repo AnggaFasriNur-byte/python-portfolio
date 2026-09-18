@@ -15,7 +15,7 @@ An automated web scraping pipeline built to extract 1,000 product records across
 
 ## Key Features
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Web_Scraping_BeautifulSoup_Ecommerce_Books/
