@@ -1,27 +1,22 @@
 # Product Market Insight
 
 ## Overview
-
-This project collects product data using web scraping techniques.
-
-The scraped data includes:
-
-* Product Name
-* Price
-* Rating
-* Availability
-
-The data is exported into CSV format for market analysis purposes.
+This foundational project collects product data from e-commerce websites using standard web scraping techniques. Data is exported into CSV format for basic market analysis.
 
 ## Technologies Used
+- Python
+- Requests
+- BeautifulSoup4
+- CSV
 
-* Python
-* Requests
-* BeautifulSoup4
-* CSV
+## Extracted Data
+- Product Name
+- Price
+- Rating
+- Availability
 
 ## Project Structure
-
+```text
 product-market-insight/
 │
 ├── data/
@@ -33,26 +28,13 @@ product-market-insight/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
-## Output Example
-
-| Product   | Price  | Rating |
-| --------- | ------ | ------ |
-| Product A | $29.99 | 4.5    |
-| Product B | $15.99 | 4.2    |
-
-## Installation
-
-```bash
-pip install -r requirements.txt
 ```
 
-## Run
-
+## Installation & Usage
 ```bash
+pip install -r requirements.txt
 python scraper.py
 ```
 
 ## Author
-
-Angga Fasri Nur
+**Angga Fasri Nur**
