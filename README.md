@@ -26,6 +26,7 @@ Collects product information from mock e-commerce websites to build foundational
 
 ## Repository Structure
 
+```text
 python-portfolio/
 │
 └── WEB-SCRAPING/
