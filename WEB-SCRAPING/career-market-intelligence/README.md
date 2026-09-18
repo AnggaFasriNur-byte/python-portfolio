@@ -1,32 +1,25 @@
 # Career Market Intelligence
 
 ## Overview
+This project collects Python job market data directly from Python.org using web scraping techniques. The data is exported into CSV and Excel formats for further market analysis.
 
-This project collects Python job market data from Python.org using web scraping techniques.
-
-The scraped data includes:
-
-* Job Title
-* Company Name
-* Location
-* Posting Date
-
-The data is exported into CSV and Excel format for further analysis.
-
-## Website Source
-
-https://www.python.org/jobs/
+**Website Source:** https://www.python.org/jobs/
 
 ## Technologies Used
+- Python
+- Requests
+- BeautifulSoup4
+- CSV
+- Excel
 
-* Python
-* Requests
-* BeautifulSoup4
-* CSV
-* Excel
+## Extracted Data
+- Job Title
+- Company Name
+- Location
+- Posting Date
 
 ## Project Structure
-
+```text
 career-market-intelligence/
 │
 ├── data/
@@ -42,26 +35,13 @@ career-market-intelligence/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
-## Output Example
-
-| Title                | Company     | Location                    | Date Posted  |
-| -------------------- | ----------- | --------------------------- | ------------ |
-| Senior Data Engineer | Six Feet Up | 100% Remote, USA            | 18 June 2026 |
-| Agentic AI Scientist | AstraZeneca | Durham, North Carolina, USA | 18 June 2026 |
-
-## Installation
-
-```bash
-pip install -r requirements.txt
 ```
 
-## Run
-
+## Installation & Usage
 ```bash
+pip install -r requirements.txt
 python scraper.py
 ```
 
 ## Author
-
-Angga Fasri Nur
+**Angga Fasri Nur**
