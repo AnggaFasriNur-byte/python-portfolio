@@ -49,6 +49,6 @@ python-portfolio/
 
 ## Author
 
-Angga Fasri Nur
-Python Web Scraping & Data Extraction Specialist
-Open for freelance opportunities and collaborations.
+**Angga Fasri Nur**<br>
+Python Web Scraping & Data Extraction Specialist<br>
+*Open for freelance opportunities and collaborations.*
