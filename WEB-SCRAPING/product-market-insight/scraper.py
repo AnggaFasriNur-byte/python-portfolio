@@ -14,7 +14,7 @@ if page.status_code == 200:
     # Create a BeautifulSoup object
     soup = BeautifulSoup(page.content, "html.parser")
 
-    #List to save all products
+    # List to save all products
     all_products = []
 
     # Retrieve all products
@@ -26,8 +26,8 @@ if page.status_code == 200:
         # product name
         name = product.select("h4 > a")[0].text.strip()
 
-        # Product description
-        description = product.select("p.description")[0].text.strip()
+        # Product description (dibersihkan dari enter/newline agar aman di Excel)
+        description = product.select("p.description")[0].text.strip().replace("\n", " ").replace("\r", " ")
 
         # Product price
         price = product.select("h4.price")[0].text.strip()
