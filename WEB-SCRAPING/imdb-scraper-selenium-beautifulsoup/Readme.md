@@ -1,28 +1,27 @@
 # IMDb Advanced Search Scraper
 
-A robust and automated web scraping pipeline built with Python to extract movie metadata from IMDb's Advanced Search platform.
+## Overview
+A robust web scraping pipeline built to extract movie metadata from IMDb's Advanced Search platform. It bypasses strict anti-bot protections, handles dynamic React-based UI elements, and overcomes lazy-loading pagination to extract large-scale datasets.
 
-This project demonstrates the ability to bypass strict anti-bot protections, handle dynamic React-based UI elements, and overcome lazy-loading pagination to extract large-scale datasets cleanly.
+## Technologies Used
+- Python
+- Selenium
+- Undetected-Chromedriver
+- BeautifulSoup4
+- Pandas
 
 ## Key Features
-
-- Anti-Bot Bypass: Utilizes undetected-chromedriver to navigate IMDb's security blocks seamlessly.
-- Dynamic Interaction: Automates human-like browser interactions (dropdown selection, keyboard simulation, and custom JavaScript clicks) to configure complex search filters.
-- Lazy Loading Handling: Programmatically scrolls and clicks the Load More pagination buttons to reveal hidden elements, successfully scraping 1,000+ records in a single run.
-- Automated Data Cleaning: Cleans and formats raw HTML text like removing ranking numbers from titles before structuring the data.
-- Ready-to-Use Output: Exports the final, clean dataset into a structured Excel format.
-
-## Tech Stack
-
-- Python 3
-- Selenium and Undetected-Chromedriver for browser automation and JavaScript execution
-- BeautifulSoup4 for HTML parsing and element extraction
-- Pandas for data manipulation and Excel export
+- **Anti-Bot Bypass:** Utilizes undetected-chromedriver to navigate security blocks.
+- **Dynamic Interaction:** Automates dropdown selection and custom JavaScript clicks.
+- **Lazy Loading Handling:** Programmatically scrolls to reveal hidden elements, extracting 1,000+ records.
 
 ## Extracted Data Points
+1. Movie Title
+2. Release Year
+3. Duration
+4. IMDb Rating
 
-## 📂 Project Structure
-
+## Project Structure
 ```text
 imdb-scraper-selenium-beautifulsoup/
 │
@@ -33,9 +32,5 @@ imdb-scraper-selenium-beautifulsoup/
 └── README.md
 ```
 
-For each movie or TV series, the scraper extracts:
-
-1. Movie Title
-2. Release Year
-3. Duration
-4. IMDb Rating
+## Author
+**Angga Fasri Nur**
